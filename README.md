@@ -7,9 +7,13 @@ Given,
 > dy/dx=f(x,y)  and  y(x0)=y0
 We can approximate the value of y(x0+h) as,
 > k1=h.f(x0,y0)
+
 > k2=h.f(x0+h/2,y0+k1/2)
+
 > k3=h.f(x0+h/2,y0+k2/2)
+
 > k4=h.f(x0+h,y0+k3)
+
 > y(x0+h)=y0+1/6 (k1+2k2+2k3+k4)
 
 ## Description-
